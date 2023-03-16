@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mega.css">
+    <title>Mega Sena</title>
+</head>
+
+<body>
+   <main class = "principal">
+     <h1>Mega Sena</h1> 
+     <form class="formulario"> 
+        <label for="jogos">Escolha entre 6 e 10 numeros:</label>
+        <input type="text" name="numero_de_jogos"  id="jogos">
+        <input type="text" name="envia" id="jogar" placeholder="jogar">
+        <span class="maisJogos" id="maisJogos"></span>
+        <img class="img_cash" src="../figuras/cash.png" alt="Iccne de dinheiro ">
+      </form>
+     <div class="mostra_mensagem " id="mostra_mensagem">
+        <div class = "result"></div>
+        <p id="numeros"></p>
+        <div class="ver_saudadcao">
+           <span id ="saudacao"></span>
+           <img class="img_trevo" src="../figuras/trevo.png" alt="Imagem do trevo da sorte">
+        </div>
+     </div>
+     <div class = "botao_volta">
+        <a  id="voltar" href="#" onclick="history.back()">Voltar</a>
+     </div>
+  </main>
+  <script src="cxmsg.js"></script>
+  <script src ="mega.js" type = "module"></script> 
+</body>
+</html>

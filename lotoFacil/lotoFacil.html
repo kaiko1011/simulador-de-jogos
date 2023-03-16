@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loto Facil</title>
+    <link rel="stylesheet" href="lotofacil.css">
+</head>
+<body>
+    <main class = "principal" id="principal">
+       <h2>Loto Facil</h2>
+       <form class="formulario"> 
+          <h4>Marque de 15 a 20 numeros:</h4>
+          <label class="mostra_jogos">Quantos Numeros:<input type="text" name="numero_de_jogos" id="jogos"></label>
+          <input type="text" name="envia" id="jogar" placeholder="Jogar">
+          <span id="mais_jogos"></span>
+         </form>
+         <div class="mostra_mensagem " id="mostra_mensagem">
+            <div class="mensagens">  
+               <div class = "result"></div>
+               <span class="numeros"></span>
+               <span class="saudacao"></span>
+            </div>   
+            <img class="money" src="../figuras/money.png" alt="Imagem de dinheiro"> 
+         </div>
+        
+        <div class = "botao_volta">
+           <a class="volta"  href="#" onclick="history.back()">Voltar</a>
+        </div>
+     </main>
+     <script src="lotofacil.js" type="module"></script>
+</body>
+</html>

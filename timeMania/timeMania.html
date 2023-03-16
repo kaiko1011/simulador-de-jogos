@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="timeMania.css">
+    <title>Time Mania</title>
+</head>
+<body>
+    <main class = "principal">
+      <h1 class="titulo_principal">Time Mania</h1>
+        <div class="formulario"> 
+              Clique no botao: <input type="text" name="envia" id="jogar" placeholder="Ver jogo"><br>
+              <span class="maisJogos" id="maisJogos"></span>
+            </div>
+            <img class="porquinho_cash" src="../figuras/porquinho.png" alt="Imagem de um porquinho da sorte"></img>
+         <div class="mensagem ">
+              <p class="mostraMensagem"></p>
+              <div class = "result"></div>
+         </div>
+         <div class="mostraTimeCoracao">
+            <input type="text" name="timeCoracao" id="timeCoracao" placeholder="Escolha um time">
+         </div>
+         <div class="ver_time">
+            <span id="mostraTime">Seu time do  <img class="img_coracao" src="../figuras/coracao.svg" alt="Icone de coração"> é:</span>
+         </div>   
+            <div class="time"></div>
+         </div>
+         <span id ="saudacao"></span> 
+         <img class="img_trevo" src="../figuras/trevo.png" alt="Imagem do trevo da sorte">      
+         <div class = "botao_volta">
+           <a class="voltar" href="#" onclick="history.back()">Voltar</a>
+        </div>
+     </main>
+     <script src ="timeMania.js" type = "module"></script>
+     <script sr ="listaTimes.js" type = "module"></script>
+    
+</body>
+</html>

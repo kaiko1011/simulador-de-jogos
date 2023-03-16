@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-size: large;
+}
+
+.principal{
+    background-color: rgb(208, 214, 215);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+
+.formulario{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.mostra_jogos{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#jogos{
+    width: 20px;   
+}
+
+#jogar{
+    width: 50px; 
+    height: 15px;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    margin-top: 15px;
+}
+
+#jogar::placeholder{
+    color: rgb(239, 239, 13);
+    background: rosybrown;
+}
+
+.mostra{
+    margin-top: 10px;
+}
+
+#mais_jogos{
+    color:brown;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.money{
+    background-color: rgb(242, 240, 236);
+    width: 200px;
+    height: 130px;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    margin: auto;
+}
+
+.mostra_mensagem{
+    width: 330px; 
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+}
+
+.mensagens{
+    height: 150px;
+    position: absolute;
+    top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.result{
+    color:darkblue;
+}
+
+.numeros{
+    width: auto;
+    color:red;
+    
+}
+
+.saudacao{
+    margin: 20p;
+}
+.img_trevo{
+    width: 50px;
+}
+
+.volta{
+    color:fuchsia;
+    margin: 10p;
+}
+
+/* Responsivo */
+
+@media screen and (max-width : 370px) {
+    .formulario,h4{
+        text-align: center;
+    }
+    
+    .numeros{
+        width: 280px
+    }
+
+    .mensagens{
+        margin-left: 20px;
+    }
+    
+}

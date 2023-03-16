@@ -1,0 +1,104 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: none;
+    font-size: large;
+}
+
+.principal{
+    background-color: rgb(133, 165, 165);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo_principal{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.formulario{
+    height: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#jogar{
+    background-color: rgb(231, 230, 227);
+    text-align: center;
+    width: 70px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#jogar::placeholder{
+    color:rgb(199, 27, 105);
+    text-transform: uppercase;
+}
+
+.maisJogos{
+    color: brown;
+}
+
+
+.porquinho_cash{
+    width: 200px;
+    height: 180px;
+    margin-top: 20px;
+    
+}
+
+.mensagem{
+    padding: 5px;
+    display: flex;
+    flex-direction:column;
+}
+.mostraMensagem{
+    margin-top:30px;
+}
+.result{
+    margin-bottom:10px;
+    text-align: center;
+    color:rgb(148, 28, 90);
+}
+
+.mostraTimeCoracao{
+    display:none;
+    border: 2px solid rgb(50,16,4);
+    
+}
+
+#timeCoracao::placeholder{
+    color:rgb(50, 16, 4);
+    text-align: center;
+    background-color: chocolate;
+}
+
+.ver_time{
+    display:none;
+}
+
+.time{
+    text-align: center;
+    text-transform: uppercase;
+    color: orangered;
+}
+
+.img_coracao{
+    width: 20px;
+    background-color: red;
+}
+
+.img_trevo{
+    width: 80px;
+}
+
+.voltar{
+    color:maroon;
+}
