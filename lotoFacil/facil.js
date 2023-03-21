@@ -6,8 +6,8 @@ Cxmsg.config(config)
 
 document.querySelector("#jogos").focus()
 const btnJogar= document.querySelector("#jogar")
-btnJogar.addEventListener("click",()=>{
-    let controle=Cxmsg.estado
+btnJogar.addEventListener("click",(evt)=>{
+    evt.preventDefault()
     document.querySelector('.money').setAttribute("style","display:block")
     const quantidadeNumeros=document.querySelector("#jogos").value
     

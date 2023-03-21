@@ -24,18 +24,20 @@ h1{
 }
 
 #jogar{
-   background-color: rgb(180, 181, 177);
-   border: 2px solid hsl(259, 76%, 36%);
-    width: 45px;
-    height: 10px;
-    text-align: center;
-    padding: 10px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 10px;;
-    display: flex;
-    justify-content:center;
-     text-transform: uppercase;
+    background-color: rgb(180, 181, 177);
+    border: 2px solid hsl(259, 76%, 36%);
+     width: 65px;
+     height: 25px;
+     text-align: center;
+     border-radius: 5px;
+     margin: auto;
+     margin-top: 20px;
+     margin-bottom: 10px;;
+     display: flex;
+     justify-content:center;
+     align-items: center;
+      text-transform: uppercase;
+     color:rgb(195, 5, 5);
 }
  #jogar::placeholder{
     color:rgb(195, 5, 5);

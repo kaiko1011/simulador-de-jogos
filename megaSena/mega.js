@@ -7,7 +7,8 @@
 
     document.querySelector("#jogos").focus();
     const botaoConfirmaJogos= document.querySelector("#jogar");
-    botaoConfirmaJogos.addEventListener('click', function() {
+    botaoConfirmaJogos.addEventListener('click', function(evt) {
+    evt.preventDefault()    
     const qtde = document.querySelector("#jogos").value;
         
     document.querySelector("#jogar").focus();

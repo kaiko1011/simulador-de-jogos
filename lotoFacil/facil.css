@@ -39,12 +39,15 @@ h1{
 }
 
 #jogar{
-    width: 50px; 
-    height: 15px;
-    text-align: center;
+    width: 65px; 
+    height: 25px;
     display: flex;
     align-self: center;
+    justify-content: center;
     margin-top: 15px;
+    color: rgb(239, 239, 13);
+    background: rosybrown;
+    border-radius: 8px;
 }
 
 #jogar::placeholder{
