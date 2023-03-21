@@ -32,12 +32,9 @@ body{
 #jogar{
     background-color: rgb(231, 230, 227);
     text-align: center;
-    width: 70px;
+    width: 80px;
     margin-top: 10px;
     border-radius: 5px;
-}
-
-#jogar::placeholder{
     color:rgb(199, 27, 105);
     text-transform: uppercase;
 }
@@ -74,7 +71,7 @@ body{
     
 }
 
-#timeCoracao::placeholder{
+#timeCoracao{
     color:rgb(50, 16, 4);
     text-align: center;
     background-color: chocolate;
